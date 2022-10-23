@@ -1,5 +1,8 @@
 languages and framework in tis project:
 PostgreSQL, Node js, Angular.
+
+
+
 Technologies: data edo, sequlize, postman,
 
 the archtecture in that project from own staty according best practices in google :
