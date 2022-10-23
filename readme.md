@@ -17,16 +17,27 @@ Config  Configuration files and db config)
 
 
 Dal ———
+
         SequlizeDal- (query DB)
+
         Sequlize models
+
         Sequlize migration
+
         Sequlize seeders
+
 Service  (Buisness logic)
+
 API ———
+
         Controller
+
         Routes
+
 App          (Express- middleware’s(cors…))
+
 Server.      (Create the server)
+
 Env (environment variables)
 
 Api (in microservices_
