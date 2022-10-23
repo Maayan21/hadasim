@@ -8,8 +8,14 @@ Technologies: data edo, sequlize, postman,
 the archtecture in that project from own staty according best practices in google :
 
 server side:
+
+
 according design pattern 3 layer model 
+
+
 Config  Configuration files and db config)
+
+
 Dal ———
         SequlizeDal- (query DB)
         Sequlize models
