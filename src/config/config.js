@@ -2,26 +2,24 @@ require('dotenv').config();
 
 module.exports = {
   "development": {
-    "username": "postgres",
-    "password": "superuser",
-    "database": "postgres",
-    "host": "localhost",
-    "dialect": "postgres"
+    "username": process.env.USER,
+    "password": process.env.PASSWORD,
+    "database": process.env.DBP,
+    "host": process.env.HOST,
+    "dialect": process.env.DIALECT
   },
   "test": {
-    "username": "postgres",
-    "password": "superuser",
-    "database": "postgres",
-    "host": "localhost",
-    "dialect": "postgres"
+    "username": process.env.USER,
+    "password": process.env.PASSWORD,
+    "database": process.env.DBP,
+    "host": process.env.HOST,
+    "dialect": process.env.DIALECT
   },
   "production": {
-    "username": "postgres",
-    "password": "superuser",
-    "database": "postgres",
-    "host": "localhost",
-    "dialect": "postgres"
+    "username": process.env.USER,
+    "password": process.env.PASSWORD,
+    "database": process.env.DBP,
+    "host": process.env.HOST,
+    "dialect": process.env.DIALECT
   }
 }
-
-
