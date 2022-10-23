@@ -5,12 +5,12 @@ PostgreSQL, Node js, Angular.
 
 Technologies: data edo, sequlize, postman,
 
-the archtecture in that project from own staty according best practices in google :
+The architecture in that project from self stady according best practices in google :
 
 server side:
 
 
-according design pattern 3 layer model 
+According design pattern 3 layer model. 
 
 
 Config  Configuration files and db config)
