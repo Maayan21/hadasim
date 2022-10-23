@@ -1,19 +1,13 @@
-הפרויקט נכתב בטכנולוגיות:
+languages and framework in tis project:
 PostgreSQL, Node js, Angular.
-technologies: data edo, sequlize, postman,
-למידת ארכיטקטורת הפרויקט וnodejs נרכשה בלמידה מקוונת באופן עצמאי.
+Technologies: data edo, sequlize, postman,
 
-מאגר נתונים:
-לצורך התחברות למאגר נתונים, השתמשתי בספרייה sequlize
-תרשים uml של הטבלאות התקבל מdataedo.
+the archtecture in that project from own staty according best practices in google :
 
-![Uploading image.png…]()
-
-
-צד שרת:
-נבנה לפי טכנולוגית מודל 3 השכבות.
+server side:
+according design pattern 3 layer model 
 Config  Configuration files and db config)
-    Dal ———
+Dal ———
         SequlizeDal- (query DB)
         Sequlize models
         Sequlize migration
@@ -23,11 +17,12 @@ API ———
         Controller
         Routes
 App          (Express- middleware’s(cors…))
-Server.      (Create the server
+Server.      (Create the server)
 Env (environment variables)
 
-Api
-נבנה בצורת מיקרוסרביסים
-כל הcrud operation רצים באמצעות פוסטמן
+Api (in microservices_
 
-צד לקוח:
+
+crud opertion run by postman
+
+client side:
