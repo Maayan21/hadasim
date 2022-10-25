@@ -40,8 +40,6 @@ Server.      (Create the server)
 
 Env (environment variables)
 
-Api (in microservices_
-
 
 crud opertion run by postman
 
